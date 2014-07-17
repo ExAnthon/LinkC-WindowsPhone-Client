@@ -7,6 +7,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Networking.Sockets;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -18,7 +19,7 @@ using Windows.UI.Xaml.Navigation;
 
 // “空白应用程序”模板在 http://go.microsoft.com/fwlink/?LinkId=391641 上有介绍
 
-namespace LinkC_Login_0._1
+namespace LinkC
 {
     /// <summary>
     /// 提供特定于应用程序的行为，以补充默认的应用程序类。

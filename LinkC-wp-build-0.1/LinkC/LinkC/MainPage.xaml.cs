@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Networking.Sockets;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -43,6 +45,11 @@ namespace LinkC
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed 事件。
             // 如果使用由某些模板提供的 NavigationHelper，
             // 则系统会为您处理该事件。
+        }
+
+        private void Lc_LoginBtn_Click(object sender, RoutedEventArgs e)
+        {
+            StreamSocket socket = new StreamSocket(SocketMessageType.)
         }
     }
 }

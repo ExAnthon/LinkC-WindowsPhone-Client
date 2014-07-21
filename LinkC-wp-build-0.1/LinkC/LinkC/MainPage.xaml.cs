@@ -4,7 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Net.NetworkInformation;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading;
+using System.Text;
 using Windows.Foundation;
+using Windows.Networking;
 using Windows.Foundation.Collections;
 using Windows.Networking.Sockets;
 using Windows.UI.Xaml;
@@ -49,7 +52,10 @@ namespace LinkC
 
         private void Lc_LoginBtn_Click(object sender, RoutedEventArgs e)
         {
-            StreamSocket socket = new StreamSocket(SocketMessageType.)
+            string Lc_server = "";
+            int Lc_prot = 0;
+            
+          
         }
     }
 }
